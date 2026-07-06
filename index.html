@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - Morán Benavides</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="logo-unein.png" alt="Logo de la institución">
+      <h1> - Morán Benavides</h1>
+    </div>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#conexion">Física + Química</a>
+      <a href="#fuentes">Fuentes</a>
+      <a href="#concepto">Concepto</a>
+      <a href="#reflexion">Reflexión</a>
+      <a href="contenido.html">Contenido</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>la percepción del color y como lo vemos</h2>
+
+      <p>
+        Esta página web explica cómo es que los humanos vemos los colores de las cosas como son y por que no los vemos con otros colores.
+      </p>
+
+      <div class="question">
+        <strong>Pregunta guía:</strong>
+        ¿Por qué vemos las cosas con ciertos colores?
+      </div>
+
+      <button onclick="irAContenido()">Ir a la página de contenido</button>
+    </section>
+
+    <section id="conexion">
+      <h2>Conexión entre Física y Química</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Idea de Física</h3>
+          <p>
+            La luz emite luz blanca, la cual esta hecha por todos los colores, esta es la que absorven todos los objetos, el objeto absorve
+             todos menos ciertas longitudes de ondas de colores que los refleja, siendo estos los que el ojo humano ve.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Idea de Química</h3>
+          <p>
+            En la retina de los ojos hay células fotorreceptoras llamadas conos las cuales detectan los colores que se reflejan en los objetos, 
+            hay 3 tipos de conos sensibles a diferentes longitudes de onda ondas, las cuales son rojo, verde y azul
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Conexión entre ambas materias</h3>
+          <p>
+            a luz reflejada por los objetos llega a nuestros ohos en longitudes de ona,
+             esta longitudes son captadas por las celulas de la retina llamadas cono luego el cerebro las interpreta y para ver diferentes colores que no son el rojo, verde y azul el cerebro las interpreta activando 2 o 3 conos, con diferente intensidad para poder ver ese color final
+          </p>
+        </div>
+      </div>
+
+      <div class="science-image">
+        <h3>Imagen explicativa del fenómeno</h3>
+        <img src="longitudes de onda.png" class="image-20" alt="Imagen relacionada con el tema seleccionado">
+      </div>
+    </section>
+
+    <section id="fuentes">
+      <h2>Fuentes consultadas</h2>
+
+      <p>
+         fuentes académicas e institucionales.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tema</th>
+            <th>Autor o institución</th>
+            <th>Fecha</th>
+            <th>Link académico</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Fuente 1 relacionada con el tema</td>
+            <td>Institut Catalá de Retina</td>
+            <td>2025</td>
+            <td><a href="#" target="_blank">https://icrcat.com/vision-en-color-ojo-humano/</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="concepto">
+      <h2>Palabra cientifica</h2>
+
+      <div class="keyword">
+        <strong>Longitudes de onda:</strong>
+        Longitud emitida por la luz reflejada por un objeto, que los ojos captan y podemos ver
+      </div>
+
+      <button onclick="mostrarExplicacion()">Mostrar explicación sencilla</button>
+
+      <div id="extra-info" class="answer">
+        <p>
+          los objetos reflejan cierta luz, con longitudes de onda especificas, las cuales cada cono( 3 tipos de cono: S, M, L) captan y el cerebro interpreta es informacion "creando" el color 
+        </p>
+      </div>
+    </section>
+
+    <section id="reflexion">
+      <h2>Decisión personal y dificultad presentada</h2>
+
+      <div class="reflection">
+        <div class="card">
+          <h3>Decisión personal tomada</h3>
+          <p>
+            Decidi resumir de una manera clara y sencilla informacion importante y general del tema.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Dificultad o duda surgida</h3>
+          <p>
+            Tuve dificultad para poder unir el proceso quimico con el fisico, usando la razon principal por la que sucedia este procedo
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Interdisciplinario de Programación, Física y Química | 2do BGU</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

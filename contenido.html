@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenido - Moran Benavides</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="logo-unein.png" alt="Logo de la institución">
+      <h1>Contenido del tema</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#investigacion">Investigación</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#fuentes-contenido">Fuentes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>la percepción del color y como lo vemos</h2>
+      <p>
+        En esta segunda página se amplía la información del tema seleccionado mediante
+        investigación, respuestas.
+      </p>
+      <button onclick="volverInicio()">Volver a la página principal</button>
+    </section>
+
+    <section id="investigacion">
+      <h2>Resumen general</h2>
+      <p>
+        Los objetos absorven la luz y reflejan otra la cual "rechazan" 
+        esta luz tiene diferentes ondas de colores, estas las capta las células de la retina
+         llamadas conos y el cerebro interpreta el color resulante siendo el que vemos en cada objeto.
+      </p>
+
+      <div class="science-image">
+        <h3>Imagen del tema</h3>
+        <img src="partes del ojo.png" class="image-20" alt="Imagen relacionada con el tema seleccionado">
+        <p><strong>Punto adicional:</strong> esta imagen está centrada y configurada al 20% del ancho.</p>
+      </div>
+    </section>
+
+    <section id="preguntas">
+      <h2>Preguntas generales del contenido</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Pregunta 1</h3>
+          <p><strong>¿Qué son los conos y como cumplen con su funcion?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta1')">Mostrar respuesta</button>
+          <div id="respuesta1" class="answer">
+            Los conos son celulas fotorreceptoras que estan ubicadas en la retina del ojo humano, que nos permite visualizar y percibir mejor los detalles,
+             estas celulas requieren de la luz, la cual la transforma en imagenes midiante varios procesos: 
+             Localizacion y concentracion: el ojo posee entre 4,5 y 6M de conos ubicados en el centro de la retina,
+             esta ubicación central permite enfocar la luz directamente para lograr una máxima agudeza visual
+              por los tipo de conos: hay 3 tipos de conos que captan diferentes ondas de color ( cono S, M y L)
+              fototransduccion:Cuando la luz incide sobre estas células, los fotopigmentos cambian de forma opsinas (en conjunto forman la yodopsina). Cuando la luz incide sobre estas células, los fotopigmentos cambian de forma. Esto altera la corriente eléctrica de la célula, transformando la energía lumínica en un impulso nervioso
+              integracion cerebral: todo viaja por el nervio ptico hasta el cerebro, el cul amplia y mejora la gama de colores
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Pregunta 2</h3>
+          <p><strong>¿Por qué es importante ?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta2')">Mostrar respuesta</button>
+          <div id="respuesta2" class="answer">
+            e simportante porque sin ellos no podríamos leer, reconocer rostros, ni apreciar la gran variedad de colores en nuestro
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Pregunta 3</h3>
+          <p><strong>¿Cómo se relaciona este tema con la Física y la Química?</strong></p>
+          <button onclick="mostrarRespuesta('respuesta3')">Mostrar respuesta</button>
+          <div id="respuesta3" class="answer">
+             se conectan gracias a las longitudes de onda del color, pues cada una tiene una una longitud especifica en nm. 
+             Ademas, gracias a los conos que hacen un proceso quimico,en la cual los conos reciven esa lomgitud de onda
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fuentes-contenido">
+      <h2>Fuentes consultadas para contenido.html</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tema consultado</th>
+            <th>Autor o institución</th>
+            <th>Fecha</th>
+            <th>Enlace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>la ciencia de como vemos el color</td>
+            <td>datacolor</td>
+            <td>2016.</td>
+            <td><a href="#" target="_blank">https://www.datacolor.com/es/business-solutions/blog/por-que-estamos-agresivos-percepcion-del-color/</a></td>
+          </tr>
+          <tr>
+            <td>Cómo vemos el color</td>
+            <td>American Museum of Natural History</td>
+            <td>2023.</td>
+            <td><a href="#" target="_blank">https://www.amnh.org/explore/ology/brain/seeing-color</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto Interdisciplinario de Programación, Física y Química | Página de contenido</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
