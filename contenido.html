@@ -121,5 +121,14 @@
   </footer>
 
   <script src="script.js"></script>
+function mostrarRespuesta(id) {
+    const respuesta = document.getElementById(id);
+
+    if (respuesta.style.display === "block") {
+        respuesta.style.display = "none";
+    } else {
+        respuesta.style.display = "block";
+    }
+}
 </body>
 </html>
